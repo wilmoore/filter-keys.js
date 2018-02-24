@@ -1,0 +1,9 @@
+build
+components
+coverage
+.DS_Store
+.env
+.env.*
+node_modules
+.node-version
+npm-debug.log
