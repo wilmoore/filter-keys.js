@@ -19,7 +19,7 @@ npm install filter-keys --save
 
 ###### npm stats
 
-[![npm](https://img.shields.io/npm/v/filter-keys.svg)](https://www.npmjs.org/package/filter-keys.js) [![NPM downloads](http://img.shields.io/npm/dm/filter-keys.js.svg)](https://www.npmjs.org/package/filter-keys.js) [![Dependency Status](https://gemnasium.com/wilmoore/filter-keys.js.svg)](https://gemnasium.com/wilmoore/filter-keys.js)
+[![npm](https://img.shields.io/npm/v/filter-keys.js.svg)](https://www.npmjs.org/package/filter-keys.js) [![NPM downloads](http://img.shields.io/npm/dm/filter-keys.js.svg)](https://www.npmjs.org/package/filter-keys.js) [![Dependency Status](https://gemnasium.com/wilmoore/filter-keys.js.svg)](https://gemnasium.com/wilmoore/filter-keys.js)
 
 ## Features
 
