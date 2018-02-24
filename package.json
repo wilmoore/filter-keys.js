@@ -36,10 +36,10 @@
   "scripts": {
     "cover": "istanbul cover test.js",
     "dependency-check": "dependency-check ./package.json && dependency-check ./package.json --unused --no-dev",
-    "dev": "nodemon -x 'npm run test --silent' -e 'js json'",
+    "dev": "nodemon -x 'yarn run test --silent' -e 'js json'",
     "fixpack": "fixpack",
-    "postversion": "git push --follow-tags && npm publish",
+    "postversion": "git push --follow-tags && yarn publish",
     "standard": "standard",
-    "test": "npm run dependency-check && npm run standard --silent && node test.js | tap-spec"
+    "test": "yarn run dependency-check && yarn run standard --silent && node test.js | tap-spec"
   }
 }
