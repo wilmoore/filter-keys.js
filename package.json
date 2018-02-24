@@ -38,7 +38,7 @@
     "dependency-check": "dependency-check ./package.json && dependency-check ./package.json --unused --no-dev",
     "dev": "nodemon -x 'yarn run test --silent' -e 'js json'",
     "fixpack": "fixpack",
-    "postversion": "git push --follow-tags && yarn publish",
+    "postversion": "git push --follow-tags",
     "standard": "standard",
     "test": "yarn run dependency-check && yarn run standard --silent && node test.js | tap-spec"
   }
