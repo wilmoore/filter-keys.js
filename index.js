@@ -14,14 +14,14 @@ var curry2 = require('curry2')
 module.exports = curry2(filterKeys)
 
 /**
- * For each element in source `object` apply `iteratee` to (key, value, object).
+ * For each element in source `object` apply `iteratee` to (value, key, object).
  * Include key in result array where return value is `true`
  *
  * @param {Object} object
  * Source object.
  *
  * @param {Function} iteratee
- * Iteratee function.
+ * Iteratee function; applied to (value, key, object).
  */
 
 function filterKeys (iteratee, object) {

@@ -1,5 +1,5 @@
 # filter-keys
-> For each element in source `object` apply `iteratee` to (key, value, object). Include key in result array where return value is `true`.
+> For each element in source `object` apply `iteratee` to (value, key, object). Include key in result array where return value is `true`.
 
 [![Build Status](http://img.shields.io/travis/wilmoore/filter-keys.js.svg)](https://travis-ci.org/wilmoore/filter-keys.js) [![Code Climate](https://codeclimate.com/github/wilmoore/filter-keys.js/badges/gpa.svg)](https://codeclimate.com/github/wilmoore/filter-keys.js) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
@@ -71,7 +71,8 @@ filter(object)
 
 ###### arguments
 
- - `iteratee: (Function)` iteratee function.
+ - `iteratee: (Function)` iteratee function; applied to (value, key, object).
+
  - `object: (Object)` source object.
 
 ###### returns

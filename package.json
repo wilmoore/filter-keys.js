@@ -1,6 +1,6 @@
 {
   "name": "filter-keys.js",
-  "description": "For each element in source `object` apply `iteratee` to (key, value, object). Include key in result array where return value is `true`.",
+  "description": "For each element in source `object` apply `iteratee` to (value, key, object). Include key in result array where return value is `true`.",
   "version": "0.3.4",
   "author": "Wil Moore III <wil.moore@wilmoore.com>",
   "bugs": {
