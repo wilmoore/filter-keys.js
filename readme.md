@@ -71,8 +71,7 @@ filter(object)
 
 ###### arguments
 
- - `iteratee: (Function)` iteratee function; applied to (value, key, object).
-
+ - `iteratee: (Function)` [iteratee] function; applied to (value, key, object).
  - `object: (Object)` source object.
 
 ###### returns
@@ -90,3 +89,4 @@ filter(object)
 [currying]: https://en.wikipedia.org/wiki/Currying
 [Parameter Order]: https://wiki.haskell.org/Parameter_order
 [pointfree programming style]: https://medium.com/@wilmoore/un-bind-your-js-with-curry-a8657a4138cb#.v81fxc79y
+[iteratee]: https://en.wikipedia.org/wiki/Iteratee
